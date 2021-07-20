@@ -8,8 +8,8 @@ const port = 8000;
 const app = express();
 var intervalObj = null;
 var age_limit = 18;             // Give your preferred age limit
-var pincode = 813203; //560078;           // Give your pincode
-var fromDate = '18-05-2021';    // Give your preferred date
+var pincode = 560100; //560078;           // Give your pincode
+var fromDate = '20-07-2021';    // Give your preferred date
 
 app.use(bodyParser.json());
 
